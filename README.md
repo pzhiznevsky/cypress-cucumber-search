@@ -6,14 +6,14 @@ Provided tests are based on examples how to define and use utility functions, ex
 
 ## Launch Cypress and Execute Test Cases
 
-Open the terminal inside `<local_path>\cypress-cucumber-e2e-tests` and use the following commands to:
+Open the terminal inside `<local_path>\cypress-cucumber-search` and use the following commands to:
 
 - Open the Cypress UI to execute test cases against default environment: ```npx cypress open```
 - Execute all test cases without opening the Cypress UI against default environment: ```npx cypress run```
 
 - Environment variables:
   - `ENV`, which can have value `prod` / `local`, depending on which environment you would like to execute your tests (if not defined, `prod` will be used by default)
-    - `prod` uses `https://automationintesting.online` as app URL
+    - `prod` uses `https://docs.cypress.io/app/get-started/why-cypress` as app URL
     - `local` uses `http://localhost` as app URL
   - `TAGS`, which can be any of available tags set in Cucumber features. If not set all scenarios will be executed. Tag expression is an infix boolean expression, some examples:
     - `@search` - Scenarios tagged with `@search` will be filtered
