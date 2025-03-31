@@ -1,0 +1,25 @@
+{
+    "cucumberautocomplete.steps": ["cypress/e2e/**/*.js"],
+    "cucumberautocomplete.syncfeatures": "cypress/e2e/*.feature",
+    "cucumberautocomplete.strictGherkinCompletion": false,
+    "cucumberautocomplete.strictGherkinValidation": false,
+    "cucumberautocomplete.smartSnippets": true,
+    "cucumberautocomplete.stepsInvariants": true,
+    "cucumberautocomplete.onTypeFormat": true,
+    "editor.quickSuggestions": {
+      "comments": false,
+      "strings": true,
+      "other": true
+    },
+    "editor.rulers": [150],
+    "editor.detectIndentation": false,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "cSpell.enableFiletypes": [
+      "feature"
+    ],
+    "cSpell.words": [
+      "badeball"
+    ]
+  }
+  
